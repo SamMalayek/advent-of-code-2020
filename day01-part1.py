@@ -1,4 +1,5 @@
 
+# Brute force for simplicity. Could alternatively sort and work inward from opposite ends.
 def main():
     nums = list(map(int, open('day01.txt').read().splitlines()))
 
